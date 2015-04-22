@@ -4,32 +4,41 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <link href='http://fonts.googleapis.com/css?family=Questrial' rel='stylesheet' type='text/css'>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
     <title>codeflo.ws</title>
     <style type="text/css">
-      html, body { height: 100%; }
+      html, body { height: 90%; }
       body {
         background-color: #1a1a1a;
         color: #FF5FB9;
         font-size: 30px;
         font-family: 'Questrial', sans-serif;
-
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        line-height: 1.2em;
+      }
+      section {
+        text-align: center;
+        padding: 0 20px;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
       }
       a {
         color: inherit;
         text-decoration: none;
+        white-space: nowrap;
       }
-      span { margin-right: 10px; }
+      .intro { margin-right: 10px; }
+      .links { white-space: nowrap; }
     </style>
   </head>
   <body>
     <section>
-      <span>I'm Jari. I make software and music.</span>
-      <a href="https://twitter.com/codeflows" class="fa fa-twitter"></a>
-      <a href="https://github.com/codeflows" class="fa fa-github-square"></a>
-      <a href="https://soundcloud.com/z-f" class="fa fa-soundcloud"></a>
+      <span class="intro">I'm Jari. I make software and music.</span>
+      <span class="links">
+        <a href="https://twitter.com/codeflows" class="fa fa-twitter"></a>
+        <a href="https://github.com/codeflows" class="fa fa-github-square"></a>
+        <a href="https://soundcloud.com/z-f" class="fa fa-soundcloud"></a>
+      </span>
     </section>
   </body>
 </html>
